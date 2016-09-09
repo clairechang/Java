@@ -14,6 +14,8 @@ public class Array {
 		sort();
 		search();
 		
+		twodimarray();
+		
 	}
 	
 	// 宣告
@@ -88,9 +90,47 @@ public class Array {
 		
 		String b[] = {"rock", "claire"};
 		
-		System.out.println(Arrays.binarySearch(a, 7));
+		Arrays.sort(a);
+		System.out.println(Arrays.binarySearch(a, 3)); // 要排序過才能尋找陣列值
+		
+		Arrays.sort(b);
 		System.out.println(Arrays.binarySearch(b, "claire"));
 		
+		for(int i = 0; i < b.length; i++) {
+			if(b[i] == "claire") {
+				System.out.println("index:" + i + " value = " + b[i]);
+				break;
+			}
+		}
+		
+	}
+	
+	// two dim array
+	public static void twodimarray() {
+		
+		int a[][] = new int[1][2];
+		int b[][] = {
+				{1, 2, 3, 4},
+				{5, 6, 7, 8}
+		};
+		
+		System.out.println(a.length + " " + a[0].length);
+		System.out.println(Arrays.toString(b[0]));
+		
+	}
+	
+	// jagged array
+	public static void jaggedarray() {
+		
+		// int a[][];
+		// a = new int[2][];
+		
+		int b[][] = {
+				{1, 2},
+				{3, 4, 5}
+		};
+		
+		System.out.println(b.length);
 	}
 
 }

@@ -45,6 +45,14 @@ public class Process {
 			}
 		}
 		System.out.println("d = " + d);
+		
+		// Enhanced for loop 加強型 forloop
+		String ary[] = {"aaa", "bbb", "ccc", "ddd", "eee"};
+		int i = 0;
+		
+		for(String elm :ary) {
+			System.out.println("ary[" + i++ +"] = " + elm);
+		}
 	
 		// while
 		// 最大公因數 GCD
