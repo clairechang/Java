@@ -1,4 +1,8 @@
-
+/**
+ * Java 條件式與流程
+ * @author rockst
+ *
+ */
 public class Process {
 
 	public static void main(String... args) { // 使用 ... 表示不確定個數

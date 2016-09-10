@@ -1,7 +1,11 @@
 package EX;
 import java.util.*;
 
-
+/**
+ * 搜尋陣列中的某個值
+ * @author rockst
+ *
+ */
 public class bSearchEX {
 
 	public static void main(String args[]) {

@@ -1,5 +1,9 @@
 import java.util.Arrays;
-
+/**
+ * Array 練習
+ * @author rockst
+ *
+ */
 public class Array {
 
 	public static void main(String[] args) {
