@@ -16,6 +16,8 @@
 	
 ## 預設引用的套件
 
+| package | doc |
+| --- | --- |
 | java.lang | 如 System |
 | jaba.io | 輸入輸出 BufferRead |
 	
