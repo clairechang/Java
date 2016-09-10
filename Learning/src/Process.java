@@ -5,7 +5,7 @@
  */
 public class Process {
 
-	public static void main(String... args) { // 使用 ... 表示不確定個數
+	public static void main(StringEX... args) { // 使用 ... 表示不確定個數
 		
 		System.out.println(args[0]); // 可從命令列傳入參數
 		System.out.println(args[1]); // 可從命令列傳入參數

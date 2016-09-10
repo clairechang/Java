@@ -5,7 +5,7 @@
  */
 public class Arith {
 
-	public static void main(String[] args) {
+	public static void main(StringEX[] args) {
 		
 		// 算術
 		int a = 4;

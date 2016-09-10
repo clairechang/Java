@@ -34,7 +34,7 @@ public class Cola {
 		}
 	    
 	    
-	    public static void main(String[] args) {
+	    public static void main(StringEX[] args) {
 	    	// http://www.worldofmastermind.com/?p=3193
 	    	// Total N = 3 + (n-2) * 4 = 4n – 5.
 	    	

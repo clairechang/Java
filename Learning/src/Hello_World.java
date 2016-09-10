@@ -4,7 +4,7 @@ import IO.Printer;
 
 public class Hello_World {
 
-	public static void main(String[] args) {
+	public static void main(StringEX[] args) {
 		// TODO Auto-generated method stub
 		Printer My_Printer = new Printer();
 		My_Printer.serial_number = 5566;

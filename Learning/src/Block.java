@@ -5,7 +5,7 @@
  */
 public class Block {
 
-	public static void main(String[] args) {
+	public static void main(StringEX[] args) {
 		// TODO Auto-generated method stub
 		
 		int i =1;
