@@ -33,8 +33,8 @@ public class ThreadEX {
 		MyThread t1 = new MyThread("MyThread1");
 		MyThread t2 = new MyThread("MyThread2");
 		
-//		t1.start(); // 啟動
-//		t2.start();
+		t1.start(); // 啟動
+		t2.start();
 		
 	}
 
@@ -45,7 +45,7 @@ class MyThread extends Thread {
 	// 建構子
 	MyThread (String name) {
 		super(name); // 呼叫父類別
-		start(); // 宣告後馬上啟動
+		// start(); // 宣告後馬上啟動
 	}
 	
 	public void run() {
